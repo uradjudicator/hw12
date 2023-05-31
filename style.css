@@ -29,7 +29,7 @@ body {
     font-weight: 100;
 }
 
-.header .top{
+.header .top {
     margin: 5px 0;
     height: 61px;
     background-color: #F6F4EC;
@@ -38,14 +38,15 @@ body {
     align-items: center;
 }
 
-.header .top .menu{
+.header .top .menu {
     display: flex;
     align-items: center;
-    gap:30px;
-    margin-left:22px  ;
-    
+    gap: 30px;
+    margin-left: 22px;
+
 }
-.top .menu .menu-link{
+
+.top .menu .menu-link {
     width: 42px;
     height: 29px;
     font-size: 18px;
@@ -53,40 +54,69 @@ body {
 
 
 
-a{
+a {
     text-decoration: none;
-    color:#B4604D;
+    color: #B4604D;
 }
 
-li{
+li {
     list-style: none;
 }
 
-.header .top .logo{
-    width: 120px;   
+.header .top .logo {
+    width: 120px;
     height: 56px;
-    margin:5px 275px ;
-    
+    margin: 5px 275px;
+
 }
 
-.header .top .block{
+.header .top .block {
     margin-left: 200px;
 }
-.header .account{
-   
+
+.header .account {
+
     display: flex;
     justify-content: center;
-    gap:20px;
+    gap: 20px;
     align-items: center;
     width: 170px;
     font-size: 18px;
-    
-    
+
+
 }
-.header .account .number{
+
+.header .account .number {
     margin-left: -10px;
 }
 
-        /* HERO */
+/* HERO */
 
-        
+.hero {
+    width: 1440px;
+    height: 435px;
+}
+
+.hero .banner .menu-button { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -108px;
+    
+}
+.banner .menu-button .click{
+    width: 128px;
+    height: 48px;
+    background-color: #B45F4D;
+    display: flex;
+    padding: 10px 20px;
+    
+}
+.banner .menu-button .click .button{
+    color: #fff;
+    width: 88px;
+    height: 29px;   
+    font-size: 17px;
+    line-height: 28px;
+    
+}
