@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: #F6F4EC;
 }
 
@@ -97,26 +97,70 @@ li {
     height: 435px;
 }
 
-.hero .banner .menu-button { 
+.hero .banner .menu-button {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: -108px;
-    
+
 }
-.banner .menu-button .click{
+
+.banner .menu-button .click {
     width: 128px;
     height: 48px;
     background-color: #B45F4D;
     display: flex;
     padding: 10px 20px;
-    
+
 }
-.banner .menu-button .click .button{
+
+.banner .menu-button .click .button {
     color: #fff;
     width: 88px;
-    height: 29px;   
+    height: 29px;
     font-size: 17px;
     line-height: 28px;
-    
+
+}
+
+/* bottom */
+.bottom .container {
+    width: 1440px;
+    height: 304px;
+    margin: 0;
+    background-color: #A9AE8D;
+}
+
+.bottom .container .proporsal {
+    padding: 69px 914px 70px 69px;
+    color: #F6F4EC;
+
+}
+
+.bottom .container .proporsal .title {
+    width: 242px;
+    height: 29px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+    text-transform: uppercase;
+}
+
+.bottom .container .proporsal .meet {
+    width: 456px;
+    height: 64px;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 64px;
+    font-style: normal;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.bottom .container .proporsal .shopping{
+    width: 77px;
+    height: 28px;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 27.2px;
+    font-style: normal;
 }
