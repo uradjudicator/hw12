@@ -8,6 +8,10 @@ body {
     font-family: 'Roboto', sans-serif;
     background: #F6F4EC;
 }
+body .container{
+    width: 1440px;
+    height: 835px;
+}
 
 
 .header .titlepart {
@@ -163,4 +167,70 @@ li {
     font-size: 16px;
     line-height: 27.2px;
     font-style: normal;
+}
+
+/* adverts */
+
+.adv-title{
+    width: 1440px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 39.2px;
+    color: #B45F4D;
+    margin: 39px 0 44px; 
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.adds{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.adds .advert1 .photo{
+    margin-bottom: 10px;
+    margin-left: 70px;
+}
+
+.adds .advert1 .price{
+    width: 198px;
+    height: 26px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #B45F4D;
+    margin-left:70px ;
+}
+
+/* 2 */
+.adds .advert2 .photo{
+    margin-bottom: 10px;
+    margin-left: 70px;
+}
+
+.adds .advert2 .price{
+    width: 198px;
+    height: 26px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #B45F4D;
+    margin-left:70px ;
+}
+
+/* 3 */
+.adds .advert3 .photo{
+    margin-bottom: 10px;
+    margin-left: 70px;
+}
+
+.container .advert3 .price{
+    width: 198px;
+    height: 26px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #B45F4D;
+    margin-left:70px ;
 }
