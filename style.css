@@ -170,6 +170,10 @@ li {
 }
 
 /* adverts */
+.advert{
+    width: 1400px;
+    height: 755.5px;
+}
 
 .adv-title{
     width: 1440px;
@@ -233,4 +237,45 @@ li {
     line-height: 25px;
     color: #B45F4D;
     margin-left:70px ;
+}
+/* Banner */
+.banner{
+    position: relative;
+}
+.banner .bannerbg{
+    width: 1219px;
+    max-width: 100%;
+    height: auto;
+    margin: 24px 110px 50px;
+    
+}
+.banner-text{
+    position: absolute;
+    top: 0%;
+    color: #F6F4EC;
+    padding: 10px;
+    background-color: #B45F4D;
+    width: 1219px;
+    margin-top:380px ;
+    margin-left: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-text .text{
+    width: 564px;
+    height: 32px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28.8px;
+    margin: 10px;
+}
+
+.banner-text .shop{
+    width: 83px;
+    height: 29px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+    margin-right: 30px;
+    margin-top: 10px;
 }
